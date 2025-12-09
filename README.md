@@ -1,46 +1,29 @@
-Lector de Libros EPUB – Proyecto Final (Programación VI)
+# Lector de Libros EPUB
 
-Este proyecto es una aplicación de escritorio desarrollada en Python utilizando 
-el framework Flet y una base de datos SQLite.
-El objetivo principal es ofrecer una forma práctica, moderna y totalmente offline 
-de leer libros digitales en formato EPUB, con una interfaz amigable y personalizable.
+Aplicación de escritorio en Python para leer libros digitales en formato EPUB de forma offline.
 
-El sistema permite al usuario agregar libros desde su dispositivo, visualizar sus 
-portadas, leerlos con formato original e imágenes, y guardar automáticamente su progreso de lectura.
-También ofrece configuraciones personalizadas como cambio de fuente, tamaño de letra, 
-interlineado, márgenes y tema de color (claro, sepia u oscuro).
+## Características
 
-Entre sus principales funciones se incluyen:
+Lectura completa de archivos EPUB con formato original e imágenes, guardado automático de progreso, biblioteca local con portadas, navegación por capítulos, atajos de teclado y configuración personalizada de fuente, tamaño, interlineado, márgenes y tema de color.
 
-Lectura completa de archivos EPUB.
+## Instalación
 
-Guardado automático de progreso.
+```
+git clone https://github.com/tu-usuario/epub-reader.git
+cd epub-reader
+pip install -r requirements.txt
+python main.py
+```
 
-Biblioteca local con portadas.
+## Tecnologías
 
-Navegación por capítulos y páginas.
+Python, Flet, SQLite, ebooklib
 
-Atajos de teclado (flechas izquierda/derecha).
+## Próximas mejoras
 
-Configuración de lectura personalizada.
+Eliminar libros, sistema de favoritos, mejora del botón continuar lectura, animación de volteo de página.
 
-Interfaz moderna y fluida creada con Flet.
+## Autor
 
-El proyecto fue desarrollado como trabajo final de la materia 
-Programación VI, aplicando los conocimientos adquiridos durante el curso.
-Fue realizado en Visual Studio Code, con control de versiones 
-mediante GitHub y diseño previo de interfaz en Canva.
+Enzo Calderón - Ingeniería Informática, UNINORTE - Proyecto Final Programación VI (2025)
 
-Próximas mejoras previstas:
-
-Agregar opción para eliminar libros.
-
-Implementar sistema de favoritos.
-
-Mejorar el botón “Continuar” para retomar la última página exacta.
-
-Incluir animación de cambio de página tipo “flip”.
-
-Autor: Enzo Calderón
-Carrera: Ingeniería Informática – UNINORTE
-Año: 2025
